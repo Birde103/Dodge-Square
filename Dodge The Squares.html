@@ -64,18 +64,6 @@
             border: none;
             cursor: pointer;
         }
-        button {
-            background-color: white;
-            border: 1px solid #ccc;
-            padding: 10px 20px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            cursor: pointer;
-            position: absolute;
-            top: 40px;
-            left: 1788px;
-}
 
     </style>
 </head>
@@ -86,12 +74,8 @@
     <div id="score">Score: 0</div>
     <div id="game-over">Game Over! Your Score: 0</div>
     <button id="restart-button">Restart</button>
-    <button id="HButton">Home</button>
 
     <script>
-        document.getElementById("HButton").addEventListener("click", function() {
-            window.location.href = "home.html";
-        });
         const gameContainer = document.getElementById("game-container");
         const player = document.getElementById("player");
         const playerWidth = player.offsetWidth;
